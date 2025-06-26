@@ -1,27 +1,40 @@
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+# 🧮 Calculator
 
-# Calculator Layout Boss Challenge
+## 📘 About This Project
 
-No knowledge is your own until you put it into practice. Using what you've learnt about auto layout, stack views and setting constraints, create the following UI. 
+This calculator project was built as part of my iOS development journey through *The Complete iOS App Development Bootcamp* by Angela Yu on Udemy. The primary focus of this project is mastering Auto Layout and building responsive user interfaces that adapt to different device orientations and screen sizes.
 
-## Portrait
+## 🧠 Key Concepts Practiced
 
-![Portrait](Documentation/Portrait.png)
+During the development of this app, I applied several important iOS layout techniques:
 
-## Landscape
-![Landscape](Documentation/Landscape.png)
+* Using **Auto Layout** to make UI flexible and responsive
+* Working with **Size Classes** for orientation-based layouts
+* Setting **Constraints with Safe Areas**
+* Utilizing **Stack Views** for consistent element distribution
+* **Aligning and pinning UI elements**
+* **Nesting Containers and Subviews** for better layout management
 
-This is a difficult challenge. You pass the challenge if you can create the vertical and horizontal stacks required for the layout. Once you've done that, you can also get extra credit if you figure out how to layout the small details.
+## 📱 App Interface
 
-Bronze Medal: If you can figure out how to have the layout be constrained to the Safe Areas in Portrait and Landscape. (Notice the distance to the edges is different between landscape and portrait.
+The calculator interface is designed to dynamically adapt between portrait and landscape modes using stack views and layout constraints.
 
-Silver Medal: If you can figure out how to indent the Label with the 0 so that there is 20px distance from the right edge of the screen.
+### 📲 Portrait Mode
 
-Gold Medal: If you can figure out how to make the 0 button take up twice as much width as the "." and "=" buttons.
+<img src="Documentation/Portrait.png" width="300"/>
 
-If you get stuck, check out the solution video in the next lesson.
+### 🌄 Landscape Mode
 
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+<img src="Documentation/Landscape.png" width="500"/>
 
-![End Banner](Documentation/readme-end-banner.png)
+## 🎓 What I Learned
 
+* Creating adaptive layouts that follow platform guidelines
+* Debugging and adjusting conflicting constraints
+* Making interfaces that are usable and visually consistent across orientations
+* Handling spacing and proportions with layout priorities
+* Using nested stack views effectively
+
+## ✅ Conclusion
+
+This project sharpened my skills in iOS UI development and taught me how to think in terms of responsive design. Building the calculator from scratch without hardcoding layouts was a rewarding challenge, and it gave me confidence to build more complex and scalable interfaces in the future.
